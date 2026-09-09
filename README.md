@@ -113,6 +113,15 @@ Platform labels lie. Traders often list as "Manufacturer." You want primary prod
 - [Zoom](https://zoom.us) — Insist on a live video walk of the production floor. Pre-recorded tours are edited; live is harder to fake.
 - [WhatsApp Business](https://www.whatsapp.com/business) — Default chat channel for most export salespeople; useful for quick voice/video plant checks once you already have the legal entity sorted.
 
+
+### Machine-checkable verification & open evidence chains
+
+Tools an AI agent (or a buyer) can call directly, plus cases where the red flags above were confirmed against public records.
+
+- [China supplier risk-check MCP server (free tier)](https://lu7897859-tech.github.io/supplier-risk-check/) — Streamable-HTTP MCP with 6 tools for AI agents: `verify_supplier` (real factory vs trading middleman via SAMR registration signals), `payment_red_flags` (wire-fraud screen), `audit_checklist` (7-point pre-payment), `certification_check` (CE/FCC/FDA authenticity), `landed_cost_calc`, `full_supplier_audit`. Free quota per wallet, machine-pay via x402. `.well-known/mcp.json` + llms.txt discoverable.
+- [Verified factory-vs-trader case studies (open evidence chains, CC0)](https://github.com/lu7897859-tech/awesome-china-sourcing-verified) — Real cases where static red flags were checked against public records: a "10M registered factory" that cut registered capital 6.44M RMB (June 2026) and shrank hiring 25→3 (-88%) before taking orders; license scope says "wholesale/trade" while the pitch says "own factory"; branch-office registrations with no actual presence. Each case links the public record trail so buyers can reproduce the check.
+- [Supplier risk check: free 30-second public-record screen](https://lu7897859-tech.github.io/supplier-risk-check/) — Drop in a Chinese company name; returns registration signals (capital changes, hiring trend, license scope, branch registrations) that separate real factories from rented offices, without a paid audit.
+
 ---
 
 ## Samples, Golden Sample & Pre-shipment

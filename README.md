@@ -59,6 +59,7 @@ Treat these as lead sources, not proof of legitimacy. Gold badges and "Verified"
 - [Europages](https://www.europages.com) — European B2B directory; handy if your buyers or secondary suppliers sit in the EU.
 - [1688](https://www.1688.com) — Alibaba's domestic wholesale site (Chinese). Reverse-search a product here to see if your "factory" is actually buying from someone else.
 - [DHgate](https://www.dhgate.com) — Smaller-lot wholesale marketplace; fine for test orders, thin on deep factory due diligence data.
+- [PlushSource](https://plushsource.com) — Open directory of custom plush manufacturers with MOQ, lead times, and certifications by country, useful when shortlisting factories before registry or audit checks.
 
 ---
 
